@@ -15,16 +15,15 @@ body {
   font-size: 24px;
 }
 .logo {
-  display: flex;
   gap: 0.5rem;
-  justify-content: center;
-  align-items: center;
   color: #222222;
 }
-header {
+.flex-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+header {
   margin: 0 auto;
   width: 1170px;
   height: 114px;
@@ -46,9 +45,6 @@ button {
   color: #222222;
 }
 .actions {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 3rem;
 }
 .no-bg-btn {
